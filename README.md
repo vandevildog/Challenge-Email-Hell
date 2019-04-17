@@ -8,7 +8,9 @@ Also, the boss wants this done ASAP, we don't have time to do this manually...HA
 
 ### The Fix
 
-Implement a module pattern that takes in the data from the log file, "email_log.json" that has a list of all the email addresses that emails were sent to, and create a report of all of the unique e-mails and the number of times an e-mail was sent to each address.
+Create a function that takes in the data from the log file, "email_log.json" that has a list of all the email addresses that emails were sent to, and create a report of all of the unique e-mails and the number of times an e-mail was sent to each address.
+
+The result returned from the module pattern should be an object where each key is the email address, and the value should be the number of times we've sent an email to that address.
 
 ### The Gotcha
 
